@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Sign Up</title>
+<link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+
+<nav>
+    <a href="index.html">Home</a> |
+    <a href="login.html">Login</a> |
+    <!-- <a href="signup.html">Sign Up</a> -->
+</nav>
+
+<hr>
+
+<h1>Welcome to sign up page.</h1>
+<p> You now can create an account with the form below  but note that all fields are required .</p>
+
+<form>
+
+<div class="user">
+<label for="username">Username:</label><br>
+<input type="text" id="username" name="username" required>
+</div>
+
+<br>
+
+<div class="mail">
+<label for="email">Email:</label><br>
+<input type="email" id="email" name="email" required>
+</div>
+
+<br>
+
+<div class="pass">
+<label for="password">Password:</label><br>
+<input type="password" id="password" name="password" minlength="6" required>
+</div>
+
+<br>
+
+<div class="confirm_pass">
+<label for="confirm_password">Confirm Password:</label><br>
+<input type="password" id="confirm_password" name="confirm_password" minlength="6" required>
+</div>
+
+<br>
+<div class="age">
+<label for="age">Age:</label><br>
+<input type="number" id="age" name="age" min="0" required>
+</div>
+<div class="gender">
+<label for="gender">Gender:</label><br>
+<select id="gender" name="gender" required>
+<option value="">Select gender</option> 
+<option value="male">Male</option>
+<option value="female">Female</option>
+</select>
+</div>
+
+
+
+<div class="role">
+<label for="role">Role:</label><br>
+<select id="role" name="role" required>
+<option value="">Select role</option>
+<option value="admin">Admin</option>
+<option value="user">User</option>
+</select>
+</div>
+
+<br>
+
+<button type="submit">Sign Up</button>
+
+</form>
+
+<p>
+if you already have an account you can log in directly.
+<a href="login.html">Login</a>
+</p>
+
+</body>
+</html>
