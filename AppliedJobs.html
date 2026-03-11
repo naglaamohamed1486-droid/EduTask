@@ -3,53 +3,184 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Applied Jobs</title>
+    <link rel="stylesheet" href="./css/Appliedjobs.css">
 </head>
-
 <body>
-    <header>
+   <header>
     <ul class="nav">
-        <li style="display: inline;" class="logo"><a href="./index.html"><svg fill="#000000" width="30px" height=20px" viewBox="0 0 24 24" id="work" data-name="Line Color" xmlns="http://www.w3.org/2000/svg" class="icon line-color"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path id="primary" d="M16,4a1,1,0,0,0-1-1H9A1,1,0,0,0,8,4V7h8Zm5,16V8a1,1,0,0,0-1-1H4A1,1,0,0,0,3,8V20a1,1,0,0,0,1,1H20A1,1,0,0,0,21,20Z" style="fill: none; stroke: #000000; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></path><path id="secondary" d="M11,14H8.64A4,4,0,0,1,5,11.58L3.18,7.43A1,1,0,0,1,4,7H20a1,1,0,0,1,.82.43L19,11.58A4,4,0,0,1,15.36,14H13" style="fill: none; stroke: #2ca9bc; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></path><rect id="primary-2" data-name="primary" x="11" y="13" width="2" height="2" style="fill: none; stroke: #000000; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></rect></g></svg></a></li>
+        <li style="display: inline;" class="logo"><a href="./index.html"><svg fill="#000000" width="30px" height=20px" viewBox="0 0 24 24" id="work" data-name="Line Color" xmlns="http://www.w3.org/2000/svg" class="icon line-color"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path id="primary" d="M16,4a1,1,0,0,0-1-1H9A1,1,0,0,0,8,4V7h8Zm5,16V8a1,1,0,0,0-1-1H4A1,1,0,0,0,3,8V20a1,1,0,0,0,1,1H20A1,1,0,0,0,21,20Z" style="fill: none; stroke: #000000; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></path><path id="secondary" d="M11,14H8.64A4,4,0,0,1,5,11.58L3.18,7.43A1,1,0,0,1,4,7H20a1,1,0,0,1,.82.43L19,11.58A4,4,0,0,1,15.36,14H13" style="fill: none; stroke: #08358e; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></path><rect id="primary-2" data-name="primary" x="11" y="13" width="2" height="2" style="fill: none; stroke: #000000; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></rect></g></svg></a></li>
         <li style="display: inline;"> <a href="./index.html">Home |</a></li>
         <li style="display: inline;"><a href="./search.html"> Jobs |</a></li>
         <li style="display: inline;"><a href="./AppliedJobs.html">Applied |</a></li>
         <li style="display: inline;"> <a href="./profile.html"> My profile |</a></li>
         <li style="display: inline;"><a href="./login.html">Login |</a></li>
-        <li style="display: inline;"><a href="./signup.html">Sign up </a></li>
+        <li style="display: inline;"><a href="./signup.html">Sign in |</a></li>
        
     </ul>
   </header>
   <hr>
+
+<body>
+
+<main>
+
+<header class="header">
     <h1>Applied Jobs</h1>
-    <p>3 applications</p>
+    <p>4 applications</p>
+</header>
 
-    
+<hr>
+<div class="jobs">
+
+
+<div class="job-card">
+
+<div class="name">
     <div>
-        <h2>senior Frontend Developer</h2>
+        <h3>Senior Frontend Developer</h3>
         <p>TechCorp - San Francisco, CA</p>
-
-        <p>Applied -> Under Review -> Interview -> Accepted</p>
-
-        <p>Status: Accepted</p>
-
-        <button><a href="./jobDetails.html" style="text-decoration: none;">View Details</a></button>
     </div>
 
+    <span class="status accepted">Accepted</span>
+</div>
 
-     <div>
-        <h2>Backend Engineer</h2>
-        <p>TechCorp - San Francisco, CA</p>
 
-        <p>Applied -> Under Review -> Interview -> Rejected</p>
+<div class="progress">
 
-        <p>Status:  Rejected</p>
+<div class="step done">
+    <div class="circle">✓</div>
+    <p>Applied</p>
+</div>
 
-        <button><a href="./jobDetails.html" style="text-decoration: none;" >View Details</a></button>
+<div class="line"></div>
+
+<div class="step done">
+    <div class="circle">✓</div>
+    <p>Under Review</p>
+</div>
+
+<div class="line"></div>
+
+<div class="step done">
+    <div class="circle">✓</div>
+    <p>Interview</p>
+</div>
+
+<div class="line"></div>
+
+<div class="step done">
+    <div class="circle">4</div>
+    <p>Accepted</p>
+</div>
+
+</div>
+
+<button class="details">View Details</button>
+
+</div>
+<hr>
+
+
+
+<div class="job-card">
+
+<div class="name">
+    <div>
+        <h3>Backend Engineer</h3>
+        <p>DataFlow Inc - New York, NY</p>
     </div>
 
+    <span class="status progress-status">In Progress</span>
+</div>
 
 
-  
+<div class="progress">
+
+<div class="step done">
+    <div class="circle">✓</div>
+    <p>Applied</p>
+</div>
+
+<div class="line"></div>
+
+<div class="step done">
+    <div class="circle">✓</div>
+    <p>Under Review</p>
+</div>
+
+<div class="line"></div>
+
+<div class="step active">
+    <div class="circle">3</div>
+    <p>Interview</p>
+</div>
+
+<div class="line gray"></div>
+
+<div class="step">
+    <div class="circle">4</div>
+    <p>Decision</p>
+</div>
+
+</div>
+
+<button class="details">View Details</button>
+
+</div>
+<hr>
+
+<div class="job-card">
+
+<div class="name">
+    <div>
+        <h3>UI/UX Designer</h3>
+        <p>Austin, TX</p>
+    </div>
+
+    <span class="status rejected">Rejected</span>
+</div>
+
+
+<div class="progress">
+
+<div class="step done">
+    <div class="circle">✓</div>
+    <p>Applied</p>
+</div>
+
+<div class="line"></div>
+
+<div class="step done">
+    <div class="circle">✓</div>
+    <p>Under Review</p>
+</div>
+
+<div class="line"></div>
+
+<div class="step done">
+    <div class="circle">✓</div>
+    <p>Interview</p>
+</div>
+
+<div class="line"></div>
+
+<div class="step done">
+    <div class="circle">4</div>
+    <p>Rejected</p>
+</div>
+
+</div>
+
+<button class="details">View Details</button>
+
+</div>
+
+
+</div>
+
+</main>
+
 </body>
 
 <footer>
@@ -60,25 +191,26 @@
       <p>Find your dream job or hire the best talent.</p>
     </div>
 <ul>
-    <div class="footer-col">
+    <li style="display: inline-block;" >
         <h4>Job Seekers</h4>
         <ul>
             <li><a href="search.html" style="text-decoration: none;">Browse Jobs</a></li>
-            <li><a href="joblist.html" style="text-decoration: none;">Jobs List</a></li>
+           
             <li><a href="AppliedJobs.html" style="text-decoration: none;">Applications</a></li>
         </ul>
-    </div>
+    </li>
 
-    <div class="footer-col">
+    <li style="display: inline-block;">
         <h4>Employers</h4>
         <ul>
+             <li><a href="joblist.html" style="text-decoration: none;">Jobs List</a></li>
             <li><a href="addjob.html" style="text-decoration: none;">Add Job</a></li>
             <li><a href="editjob.html" style="text-decoration: none;">Edit Job</a></li>
 
         </ul>
-    </div>
+    </li>
 
-    <div class="footer-col">
+    <li  style="display: inline-block;">
         <h4>Platform</h4>
         <ul>
             <li><a href="index.html" style="text-decoration: none;">Home</a></li>
@@ -86,13 +218,13 @@
             <li><a href="login.html" style="text-decoration: none;">Login</a></li>
 
         </ul>
-    </div>
+    </li>
     </ul>
 
     <hr>
-</div>
+</li>
 <div class="f2">
-    <p> &copy 2026 --. All rights reserved.</p>
+    <p style="text-align: center;"> &copy 2026 --. All rights reserved.</p>
     </div>
 </footer>
 </html>
